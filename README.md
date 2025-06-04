@@ -1,5 +1,8 @@
 # Bottoms Up
 
+![Peach](assets/Logo.svg)
+
+
 A programming language read from the bottom up.
 
 > This repository is an entry to a programming language jam so all aspects of this project are
@@ -51,7 +54,8 @@ eagerly from right to left (no mathematic operator precedence is used).
 #### Literals
 
 - Decimal Integers
-- Double Quoted String 
+- Double Quoted String
+- Array: notated with the `[]` 
 
 #### Operators
 
@@ -62,9 +66,28 @@ eagerly from right to left (no mathematic operator precedence is used).
 - `*` multiply
 - `/` divide
 - `%` modulo
-- `<<` bit shift left
 - `>>` bit shift right
+- `<<` bit shift left
 
 ##### String Operators
 
 - `><` concatenate two strings
+
+##### Logical Operators
+
+- `>` greater
+- `<` less
+- `==` equal
+- `!=` not equal
+
+##### Misc Operators
+
+- `->` Call
+- `=` assign
+- `[` and `]` array Literal
+- `{` and `}` block
+
+#### Comment
+
+Comments are in the style of Ocaml and start with a `(*` and must be closed with a `*)` and comments
+cannot be nested.
